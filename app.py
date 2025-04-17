@@ -3,6 +3,9 @@ import torch
 import pickle
 import numpy as np
 
+# Prevent Streamlit's watcher from poking into torch.classes
+torch.classes.__path__ = []
+
 # Load mappings
 with open("data/char2idx.pkl", "rb") as f:
     char2idx = pickle.load(f)
