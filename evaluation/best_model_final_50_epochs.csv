@@ -1,0 +1,2 @@
+Model,Embedding Dim,Hidden Dim,Num Layers,Dropout,LR,Batch Size,Best Val Loss,Best Val Accuracy,Best Perplexity
+LSTM_emb256_hid512_layers2_drop0.3_lr0.003_batch64_final50,256,512,3,0.3,0.003,64,0.09118725243024528,0.97202,1.0954741162446384
