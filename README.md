@@ -4,7 +4,7 @@
 This project focuses on building a character-level text generation model using Shakespeare's works. We implemented and compared GRU and LSTM-based RNNs using PyTorch, performed hyperparameter tuning, and deployed a web app using Streamlit.
 
 ##  Live Demo
-**Streamlit App:** *[Insert your deployment link here]*
+**Streamlit App:** 
 
 ##  Project Structure
 ```
