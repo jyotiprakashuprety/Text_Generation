@@ -68,3 +68,4 @@ if st.button("Generate"):
     model = load_model(model_path, rnn_type=model_choice)
     output = generate_text(model, start_input, char2idx, idx2char, gen_size=length, temperature=temperature)
     st.text_area("Generated Shakespearean Text", output, height=300)
+

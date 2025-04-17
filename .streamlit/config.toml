@@ -1,0 +1,11 @@
+[server]
+headless = true
+enableCORS = false
+port = 8501
+
+[runner]
+magicEnabled = false
+
+[watcher]
+# Disables the problematic auto-import inspection
+watchScript = false
